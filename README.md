@@ -8,19 +8,19 @@ Dataset used: The Oxford-IIIT Pet Dataset
 
 Description: It was trained for four variations
 
-MP+Tr+CE
-MP+Tr+Dice Loss
-StrConv+Tr+CE
-StrConv+Ups+Dice Loss
+    Max pooling + Transpose conv + crossentropy loss
+    Max pooling + Transpose conv + Dice Loss
+    Strided Conv + Transpose conv + crossentropy loss
+    Strided Conv + Up sampling + Dice Loss
 
 ## Results
 
-UNET was trained for 15 epochs each with above variations. are respective losses 
+UNET was trained for 15 epochs each with above variations. Below are respective losses 
 
-MP+Tr+CE               -  0.33   
-MP+Tr+Dice Loss        -  0.22
-StrConv+Tr+CE          -  0.33
-StrConv+Ups+Dice Loss  -  0.27
+    MP+Tr+CE               -  0.33   
+    MP+Tr+Dice Loss        -  0.22
+    StrConv+Tr+CE          -  0.33
+    StrConv+Ups+Dice Loss  -  0.27
 
 ![output images](output.png)
 
