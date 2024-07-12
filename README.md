@@ -28,7 +28,7 @@ UNET was trained for **15 epochs** each with above variations. Below are respect
 # Part 2: Design a variation of VAE
 
 To understand the working of VAE, train cifar10 and mnist data. Given a constraint that labels are in one hot encoding format
-The results of correct vs incorrect result images are attached in notebook files **vae_cifar.ipynb ans vae_mnist.ipynb*
+The results of correct vs incorrect result images are attached in notebook files **vae_cifar.ipynb ans vae_mnist.ipynb**
 
 
 
