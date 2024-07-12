@@ -22,7 +22,7 @@ UNET was trained for 15 epochs each with above variations. Below are respective 
     StrConv+Tr+CE          -  0.33
     StrConv+Ups+Dice Loss  -  0.27
 
-![output images](output.png)
+![output images](unet/output.png)
 
 
 # Part 2: Design a variation of VAE
